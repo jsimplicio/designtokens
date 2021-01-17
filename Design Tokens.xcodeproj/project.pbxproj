@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8424C91825A9374C00E2B58D /* ColorGroups.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8424C91625A9374C00E2B58D /* ColorGroups.xcdatamodeld */; };
 		843BB526258063F6004C38C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BB525258063F6004C38C6 /* AppDelegate.swift */; };
 		843BB528258063F6004C38C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BB527258063F6004C38C6 /* SceneDelegate.swift */; };
 		843BB52A258063F6004C38C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BB529258063F6004C38C6 /* ContentView.swift */; };
@@ -35,10 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8424C91725A9374C00E2B58D /* ColorGroups.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColorGroups.xcdatamodel; sourceTree = "<group>"; };
 		843BB522258063F6004C38C6 /* Design Tokens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Tokens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		843BB525258063F6004C38C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843BB527258063F6004C38C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		843BB529258063F6004C38C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		843BB529258063F6004C38C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		843BB52B258063FB004C38C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843BB52E258063FB004C38C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		843BB531258063FB004C38C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				843BB525258063F6004C38C6 /* AppDelegate.swift */,
+				8424C91625A9374C00E2B58D /* ColorGroups.xcdatamodeld */,
 				843BB527258063F6004C38C6 /* SceneDelegate.swift */,
 				843BB529258063F6004C38C6 /* ContentView.swift */,
 				843BB52B258063FB004C38C6 /* Assets.xcassets */,
@@ -270,6 +273,7 @@
 				843BB526258063F6004C38C6 /* AppDelegate.swift in Sources */,
 				843BB528258063F6004C38C6 /* SceneDelegate.swift in Sources */,
 				843BB52A258063F6004C38C6 /* ContentView.swift in Sources */,
+				8424C91825A9374C00E2B58D /* ColorGroups.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -594,6 +598,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8424C91625A9374C00E2B58D /* ColorGroups.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8424C91725A9374C00E2B58D /* ColorGroups.xcdatamodel */,
+			);
+			currentVersion = 8424C91725A9374C00E2B58D /* ColorGroups.xcdatamodel */;
+			name = ColorGroups.xcdatamodeld;
+			path = ../ColorGroups.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 843BB51A258063F6004C38C6 /* Project object */;
 }
